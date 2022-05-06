@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Tutorial", "WPF_Tutorial\WPF_Tutorial.csproj", "{2605B061-5510-4C9A-87EC-B9ED19A5E318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{C3867003-47F8-47CF-8980-E33FFF402A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPreview", "ColorPreview\ColorPreview.csproj", "{98A38B2C-0DBC-41A0-9431-368857E5553E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2605B061-5510-4C9A-87EC-B9ED19A5E318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2605B061-5510-4C9A-87EC-B9ED19A5E318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2605B061-5510-4C9A-87EC-B9ED19A5E318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2605B061-5510-4C9A-87EC-B9ED19A5E318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3867003-47F8-47CF-8980-E33FFF402A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3867003-47F8-47CF-8980-E33FFF402A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3867003-47F8-47CF-8980-E33FFF402A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3867003-47F8-47CF-8980-E33FFF402A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A38B2C-0DBC-41A0-9431-368857E5553E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A38B2C-0DBC-41A0-9431-368857E5553E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A38B2C-0DBC-41A0-9431-368857E5553E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A38B2C-0DBC-41A0-9431-368857E5553E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {908B5119-9E68-4BFA-800C-060CFAB775AA}
+	EndGlobalSection
+EndGlobal
