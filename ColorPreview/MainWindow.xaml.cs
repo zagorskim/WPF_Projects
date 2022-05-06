@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Reflection;
 
 namespace ColorPreview
 {
@@ -23,6 +24,21 @@ namespace ColorPreview
         public MainWindow()
         {
             InitializeComponent();
+        }
+        public void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            var props = typeof(Colors).GetProperties(BindingFlags.Static | BindingFlags.Public);
+            var colorInfos = props.Select(prop =>
+            {
+                var color = (Color)prop.GetValue(null, null);
+                return new ColorInfo()
+                {
+                    Name = prop.Name,
+                    Rgb = color,
+                    RgbInfo = $"R:{color.R} G:{color.G}, B:{color.B}"
+                };
+            });
+            this.DataContext = colorInfos;
         }
     }
 }

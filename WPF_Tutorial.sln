@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPreview", "ColorPreview\ColorPreview.csproj", "{98A38B2C-0DBC-41A0-9431-368857E5553E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DCube", "3DCube\3DCube.csproj", "{DB9FE111-208E-4FA7-A602-F470A4B841CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{98A38B2C-0DBC-41A0-9431-368857E5553E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98A38B2C-0DBC-41A0-9431-368857E5553E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98A38B2C-0DBC-41A0-9431-368857E5553E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB9FE111-208E-4FA7-A602-F470A4B841CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9FE111-208E-4FA7-A602-F470A4B841CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9FE111-208E-4FA7-A602-F470A4B841CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9FE111-208E-4FA7-A602-F470A4B841CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
