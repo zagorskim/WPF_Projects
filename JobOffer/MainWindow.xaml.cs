@@ -28,5 +28,15 @@ namespace JobOffer
         {
             this.WindowState = WindowState.Maximized;
         }
+
+        private void Preview_Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.ResizeMode = ResizeMode.NoResize;
+        }
+
+        private void Upload_Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.ResizeMode = ResizeMode.CanResize;
+        }
     }
 }
